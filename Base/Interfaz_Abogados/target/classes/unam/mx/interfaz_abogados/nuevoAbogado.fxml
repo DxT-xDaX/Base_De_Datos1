@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="537.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unam.mx.interfaz_abogados.controladores.nuevoAbogado">
+    <children>
+        <Button fx:id="BtnLimpiar" layoutX="20.0" layoutY="355.0" mnemonicParsing="false" onAction="#eventoLimpiarAbogado" text="Limpiar" />
+        <Label layoutX="89.0" layoutY="28.0" text="Registrar nuevo abogado">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Label>
+        <Label layoutX="35.0" layoutY="90.0" text="Cedula" />
+        <Label layoutX="31.0" layoutY="132.0" text="Nombre" />
+        <Label layoutX="29.0" layoutY="172.0" text="Apellido Paterno" />
+        <TextField fx:id="TxTCedula" layoutX="129.0" layoutY="86.0" />
+        <TextField fx:id="TxTNombre" layoutX="129.0" layoutY="128.0" />
+        <TextField fx:id="TxTApellPat" layoutX="157.0" layoutY="168.0" />
+        <Label layoutX="27.0" layoutY="210.0" text="Apellido Materno" />
+        <Label layoutX="26.0" layoutY="247.0" text="Curp" />
+        <Label layoutX="28.0" layoutY="285.0" text="Telefono" />
+        <Label layoutX="28.0" layoutY="318.0" text="Correo" />
+        <TextField fx:id="TxTApellMat" layoutX="157.0" layoutY="206.0" />
+        <TextField fx:id="TxTCurp" layoutX="109.0" layoutY="243.0" />
+        <TextField fx:id="TxTTel" layoutX="87.0" layoutY="281.0" />
+        <TextField fx:id="TxTCorreo" layoutX="100.0" layoutY="314.0" />
+        <Button fx:id="BtnGuardar" layoutX="438.0" layoutY="355.0" mnemonicParsing="false" onAction="#eventoGuardarAbogado" text="Guardar" />
+    </children>
+</Pane>

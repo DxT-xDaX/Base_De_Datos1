@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unam.mx.interfaz_abogados.controladores.ControladorMenu">
+   <children>
+      <Button layoutX="140.0" layoutY="140.0" mnemonicParsing="false" onAction="#verCliente" text="Ver clientes" />
+      <Button layoutX="133.0" layoutY="252.0" mnemonicParsing="false" onAction="#verAbogado" text="Ver Abogados" />
+      <Label layoutX="76.0" layoutY="32.0" text="Bienvenido">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Button layoutX="20.0" layoutY="351.0" mnemonicParsing="false" onAction="#cerrar" text="Cerrar" />
+      <ImageView fitHeight="449.0" fitWidth="270.0" layoutX="347.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Fes%20Aragón.jpeg" />
+         </image>
+      </ImageView>
+      <Button layoutX="94.0" layoutY="286.0" mnemonicParsing="false" onAction="#abrirVistaAbogadoExpediente" text="Ver Abogados-Expediente" />
+      <Button layoutX="104.0" layoutY="176.0" mnemonicParsing="false" text="Ver Cliente-Procurador" onAction="#abrirVistaClienteProcurador" />
+   </children>
+</Pane>
